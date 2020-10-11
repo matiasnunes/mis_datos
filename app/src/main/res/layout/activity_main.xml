@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margen_arriba"
+        android:layout_gravity="center"
+        android:textSize="@dimen/titulo"
+        android:text="@string/titulo"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/etNombreCompleto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margen_horizontal"
+            android:imeOptions="actionGo"
+            android:inputType="text"
+            android:singleLine="true"
+            android:hint="@string/nombre_completo"
+            />
+
+        <DatePicker android:datePickerMode="spinner"
+            android:id="@+id/dtFechaNacimiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:calendarViewShown="false"
+            />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/etTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margen_horizontal"
+            android:imeOptions="actionGo"
+            android:inputType="number"
+            android:singleLine="true"
+            android:hint="@string/telefono"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margen_horizontal"
+            android:imeOptions="actionGo"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:hint="@string/email"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tvDescripcionContacto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margen_arriba"
+        android:layout_gravity="center"
+        android:textSize="@dimen/titulo"
+        android:text="@string/descripcion_contacto"
+        />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/etDescripcionContacto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margen_horizontal"
+            android:imeOptions="actionGo"
+            android:inputType="text"
+            android:singleLine="true"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/boton_enviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/boton_siguiente"
+        android:layout_gravity="end"
+        />
+
+</LinearLayout>

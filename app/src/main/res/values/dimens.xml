@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titulo">20dp</dimen>
+    <dimen name="margen_horizontal">50dp</dimen>
+    <dimen name="margen_arriba">20dp</dimen>
+</resources>

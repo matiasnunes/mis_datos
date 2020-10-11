@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MisDatos</string>
+    <string name="titulo">Introducir mis Datos</string>
+    <string name="descripcion_contacto">Descripción del contacto</string>
+    <string name="nombre_completo">Nombre Completo</string>
+    <string name="telefono">Teléfono</string>
+    <string name="email">Email</string>
+    <string name="boton_siguiente">Siguiente</string>
+
+    <string name="confirmar_datos">Confirmar Datos</string>
+    <string name="fecha_nacimiento">Fecha Nacimiento:</string>
+    <string name="confirma_telefono">Tel.</string>
+    <string name="confirma_email">Email:</string>
+    <string name="confirma_descripcion">Descripción</string>
+    <string name="boton_editar">Editar Datos</string>
+
+    <string name="bundle_nombre_completo">nombre_completo</string>
+    <string name="bundle_dia">dia</string>
+    <string name="bundle_mes">mes</string>
+    <string name="bundle_anio">anio</string>
+    <string name="bundle_telefono">telefono</string>
+    <string name="bundle_email">email</string>
+    <string name="bundle_descripcion">descripcion</string>
+</resources>
